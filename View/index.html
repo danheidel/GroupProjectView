@@ -8,14 +8,14 @@
 <body>
 <div id='dmain'>
 <div id='datain'>
-<input id='brange' type='text'></input>
-<input id='erange' type='text'></input>
-<input id='rchkbox' type='checkbox'>Use Range</input>
-<button id='rgbtn'>GetPlaces</button>
-<div id='rslider' class='noUiSlider'></div>
-<input id='rupper'></input><input id='rlower'></input>
-<div id='mslider' class='noUiSlider'></div>
-<input id='milesfromHwy'></input>
+<input id='fromLocation' type='text'></input>
+<input id='toLocation' type='text'></input>
+<input id='useFromLocationOnlyCheckbox' type='checkbox'>Use Range</input>
+<button id='btnGetPlaces'>GetPlaces</button>
+<div id='rangeSlider' class='noUiSlider'></div>
+<input id='rangeUpper'></input><input id='rangeLower'></input>
+<div id='milesSlider' class='noUiSlider'></div>
+<input id='milesFromHwy'></input>
 </div>
 
 <div id='dataout'>
@@ -31,6 +31,7 @@ no results
      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
      <script src='src/jquery.nouislider.js'></script>
      <script src='src/gpview.js'>
+
      
      </script>
 </html>
